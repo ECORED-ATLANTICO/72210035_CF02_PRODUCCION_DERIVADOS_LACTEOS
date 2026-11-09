@@ -1,1 +1,2 @@
-module.exports = 'Titulo del componente formativo'
+module.exports =
+  'Control de calidad, conservación y elaboración de derivados lácteos'
