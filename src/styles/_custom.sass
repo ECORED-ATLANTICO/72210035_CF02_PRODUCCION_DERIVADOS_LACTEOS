@@ -165,6 +165,9 @@ figcaption, table caption
   width: 230px
   height: auto
   margin: 0 auto
+.imgw-340
+  width: 340px
+  margin: 0 auto
 
 .tabs-c__content-item
   background-color: $color-secundario-s10
@@ -192,8 +195,10 @@ figcaption, table caption
 .accesibilidad
   z-index: 3
 
-.slyder-a__bullets__item
-  margin: 0 7px
+.slider-custom
+  .slyder-a__bullets__item
+    @media screen and (max-width: $bp-max-sm)
+      margin: 0 5px
 
 .linea-tiempo-d
   &__item__content
