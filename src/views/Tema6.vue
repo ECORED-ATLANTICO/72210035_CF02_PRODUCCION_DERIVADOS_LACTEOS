@@ -48,13 +48,13 @@
           p.mb-0 Los quesos pueden presentar grandes diferencias en textura, humedad, sabor, aroma y tiempo de conservación. Estas características dependen de factores como el tipo de leche, la forma de coagulación, la cantidad de suero retirado, el contenido de grasa, el salado y los tratamientos posteriores.  
         p.mb-0 En Colombia es común encontrar quesos frescos, blandos, semiblandos, hilados, untables y madurados, utilizados tanto para consumo directo como para preparaciones gastronómicas; entre los más representativos, tenemos: 
 
-    .bg-slider-2.p-4.p-xl-5.rounded-4.z-2
+    .bg-slider-2.p-4.p-xl-5.rounded-4.z-2.mb-5
       SlyderA(tipo="b").p-4.bg-white.rounded-4.py-5.slider-custom
         .row.justify-content-center.align-items-center
           .col-lg-7
             h4.mb-4 Queso campesino o fresco 
             p.mb-0 Presenta alta humedad, textura blanda, sabor suave y generalmente no requiere maduración. Debe conservarse refrigerado. 
-            p.mb-0 #[strong Ejemplo de uso]: consumo directo, desayunos, arepas y preparaciones caseras 
+            p.mb-4.mb-lg-0 #[strong Ejemplo de uso]: consumo directo, desayunos, arepas y preparaciones caseras 
           .col-sm-6.col-lg-4
             figure
               img.imgw-340(src="@/assets/curso/tema6/5.png", alt="")
@@ -62,7 +62,7 @@
           .col-lg-7
             h4.mb-4 Cuajada 
             p.mb-0 Producto fresco, de sabor suave y textura húmeda. Se obtiene mediante coagulación de la leche y separación parcial del lactosuero. 
-            p.mb-0 #[strong Ejemplo de uso]: consumo directo, acompañada con miel, panela o preparaciones tradicionales. 
+            p.mb-4.mb-lg-0 #[strong Ejemplo de uso]: consumo directo, acompañada con miel, panela o preparaciones tradicionales. 
           .col-sm-6.col-lg-4
             figure
               img.imgw-340(src="@/assets/curso/tema6/6.png", alt="")
@@ -70,7 +70,7 @@
           .col-lg-7
             h4.mb-4 Queso doble crema 
             p.mb-0 Queso semiblando, de textura elástica y buen contenido de grasa. Durante su elaboración se desarrolla una masa que puede ser trabajada o hilada. 
-            p.mb-0 #[strong Ejemplo de uso]: sándwiches, comidas rápidas, panadería y preparaciones calientes. 
+            p.mb-4.mb-lg-0 #[strong Ejemplo de uso]: sándwiches, comidas rápidas, panadería y preparaciones calientes. 
           .col-sm-6.col-lg-4
             figure
               img.imgw-340(src="@/assets/curso/tema6/7.png", alt="")
@@ -78,7 +78,7 @@
           .col-lg-7
             h4.mb-4 Queso crema 
             p.mb-0 Producto blando, cremoso y fácil de untar, elaborado con leche y componentes grasos que favorecen su textura característica. 
-            p.mb-0 #[strong Ejemplo de uso]: panes, galletas, repostería, salsas y preparaciones frías. 
+            p.mb-4.mb-lg-0 #[strong Ejemplo de uso]: panes, galletas, repostería, salsas y preparaciones frías. 
           .col-sm-6.col-lg-4
             figure
               img.imgw-340(src="@/assets/curso/tema6/8.png", alt="")
@@ -86,7 +86,7 @@
           .col-lg-7
             h4.mb-4 Queso mozzarella 
             p.mb-0 Queso de pasta hilada, textura elástica y buena capacidad de fundido. 
-            p.mb-0 #[strong Ejemplo de uso]: pizzas, lasañas y otras preparaciones calientes. 
+            p.mb-4.mb-lg-0 #[strong Ejemplo de uso]: pizzas, lasañas y otras preparaciones calientes. 
           .col-sm-6.col-lg-4
             figure
               img.imgw-340(src="@/assets/curso/tema6/9.png", alt="")
@@ -94,7 +94,7 @@
           .col-lg-7
             h4.mb-4 Queso costeño 
             p.mb-0 Queso fresco o semiduro, generalmente más salado y firme que otros quesos frescos. 
-            p.mb-0 #[strong Ejemplo de uso]: bollos, arepas, fritos y preparaciones típicas de la región Caribe. 
+            p.mb-4.mb-lg-0 #[strong Ejemplo de uso]: bollos, arepas, fritos y preparaciones típicas de la región Caribe. 
           .col-sm-6.col-lg-4
             figure
               img.imgw-340(src="@/assets/curso/tema6/10.png", alt="")

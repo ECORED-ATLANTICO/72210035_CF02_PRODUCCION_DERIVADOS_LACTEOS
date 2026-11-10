@@ -130,41 +130,6 @@
             figure
               img.imgw-230(src="@/assets/curso/tema2/12.png", alt="")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </template>
 
 <script>

@@ -56,6 +56,8 @@ figcaption, table caption
   background-color: $color-secundario-s10
 .bg-primario-p5
   background-color: $color-primario-p5
+.bg-primario-p10
+  background-color: $color-primario-p10
 .bg-contenido-a10
   background-color: $color-acento-contenido-a10
 .bg-contenido-a5
@@ -151,12 +153,17 @@ figcaption, table caption
     background-color: $color-acento-botones
     border-color: $color-acento-botones
 
+.imgh-50
+  height: 50px
 .imgh-92
   height: 92px
   width: auto
 .imgh-105
   height: 105px
   width: auto
+.imgw-34
+  width: 34px
+  margin: 0 auto
 .imgw-165
   width: 165px
   height: auto
@@ -230,3 +237,34 @@ figcaption, table caption
 
 .tarjeta-avatar > img
   width: 140px
+
+.slyder-f
+  align-items: center
+  border-radius: 20px
+
+  // &__slyde
+  //   h4
+  //     background-color: $color-secundario
+  //     width: fit-content
+  //     padding: 4px 20px
+  //     margin-left: auto
+  //     margin-right: auto
+  
+  &__main
+    width: 70%
+
+    @media (min-width: 769px)
+      width: 80%
+
+  &__btn
+    height: 40px
+    width: 40px
+    max-width: 40px
+    background-color: $color-acento-botones
+    border-radius: 50%
+    padding: 0 !important
+    margin: 0 auto
+    .fa-chevron-left
+      font-size: 20px
+    .fa-chevron-right
+      font-size: 20px

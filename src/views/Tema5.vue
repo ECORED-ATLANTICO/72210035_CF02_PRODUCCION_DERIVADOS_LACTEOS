@@ -54,7 +54,7 @@
           .col-lg-7
             h4.mb-4 Firme o coagulado 
             p.mb-0 La fermentación se realiza directamente en el envase y el gel formado permanece prácticamente intacto. Presenta una consistencia compacta y uniforme. 
-            p.mb-0 #[strong Ejemplo de presentación]: yogur natural firme servido en vaso individual. 
+            p.mb-4.mb-lg-0 #[strong Ejemplo de presentación]: yogur natural firme servido en vaso individual. 
           .col-sm-6.col-lg-4
             figure
               img.imgw-340(src="@/assets/curso/tema5/6.png", alt="")
@@ -62,7 +62,7 @@
           .col-lg-7
             h4.mb-4 Batido 
             p.mb-0 Después de la fermentación, el coágulo se mezcla suavemente para obtener una textura cremosa y homogénea. Puede comercializarse natural o con otros ingredientes. 
-            p.mb-0 #[strong Ejemplo de presentación]: yogur cremoso de fresa o natural. 
+            p.mb-4.mb-lg-0 #[strong Ejemplo de presentación]: yogur cremoso de fresa o natural. 
           .col-sm-6.col-lg-4
             figure
               img.imgw-340(src="@/assets/curso/tema5/7.png", alt="")
@@ -70,7 +70,7 @@
           .col-lg-7
             h4.mb-4 Bebible 
             p.mb-0 Presenta menor viscosidad y una consistencia más fluida, obtenida mediante agitación y ajuste de la formulación después de la fermentación. 
-            p.mb-0 #[strong Ejemplo de presentación]: yogur líquido comercializado en botella. 
+            p.mb-4.mb-lg-0 #[strong Ejemplo de presentación]: yogur líquido comercializado en botella. 
           .col-sm-6.col-lg-4
             figure
               img.imgw-340(src="@/assets/curso/tema5/8.png", alt="")
@@ -78,7 +78,7 @@
           .col-lg-7
             h4.mb-4 Natural 
             p.mb-0 Se elabora sin incorporar sabores o frutas que modifiquen significativamente su perfil original. Conserva el sabor ácido propio de la fermentación. 
-            p.mb-0 #[strong Ejemplo de presentación]: yogur natural sin sabor añadido. 
+            p.mb-4.mb-lg-0 #[strong Ejemplo de presentación]: yogur natural sin sabor añadido. 
           .col-sm-6.col-lg-4
             figure
               img.imgw-340(src="@/assets/curso/tema5/9.png", alt="")
@@ -86,7 +86,7 @@
           .col-lg-7
             h4.mb-4 Saborizado 
             p.mb-0 Incorpora ingredientes que aportan aromas y sabores determinados, manteniendo la base fermentada del producto. 
-            p.mb-0 #[strong Ejemplo de presentación]: yogur sabor vainilla. 
+            p.mb-4.mb-lg-0 #[strong Ejemplo de presentación]: yogur sabor vainilla. 
           .col-sm-6.col-lg-4
             figure
               img.imgw-340(src="@/assets/curso/tema5/10.png", alt="")
@@ -94,7 +94,7 @@
           .col-lg-7
             h4.mb-4 Con fruta 
             p.mb-0 Contiene preparaciones, pulpas o trozos de frutas incorporados antes o después de la fermentación, según el proceso utilizado. 
-            p.mb-0 #[strong Ejemplo de presentación]: yogur con fresa, mora o durazno. 
+            p.mb-4.mb-lg-0 #[strong Ejemplo de presentación]: yogur con fresa, mora o durazno. 
           .col-sm-6.col-lg-4
             figure
               img.imgw-340(src="@/assets/curso/tema5/11.png", alt="")
@@ -102,7 +102,7 @@
           .col-lg-7
             h4.mb-4 Concentrado 
             p.mb-0 Después de la fermentación se reduce parte del suero, aumentando la concentración de sólidos y generando una textura más espesa y cremosa. 
-            p.mb-0 #[strong Ejemplo de presentación]: yogur tipo griego. 
+            p.mb-4.mb-lg-0 #[strong Ejemplo de presentación]: yogur tipo griego. 
           .col-sm-6.col-lg-4
             figure
               img.imgw-340(src="@/assets/curso/tema5/12.png", alt="")
@@ -113,7 +113,7 @@
       h2 5.2 Lácteos funcionales 
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
-      .col-sm-6.col-lg-4
+      .col-sm-6.col-lg-4.d-none.d-lg-block
         figure
           img.mb-4.mb-lg-0(src="@/assets/curso/tema5/13.png", alt="" data-aos="zoom-in-down")
       .col-lg-8
@@ -144,17 +144,6 @@
             td #[strong Simbióticos]
             td(colspan="2") Combinan probióticos y prebióticos en un mismo producto para favorecer su acción conjunta. 
             td(colspan="2") Pueden encontrarse en algunos yogures funcionales y bebidas fermentadas.
-
-
-
-
-
-
-
-
-
-
-
 
 
 
