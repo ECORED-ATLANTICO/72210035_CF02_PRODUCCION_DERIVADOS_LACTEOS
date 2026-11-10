@@ -245,24 +245,82 @@
         .bg-primario-p5.p-4.py-3.rounded-4.mb-3
           p.mb-0 Es importante precisar que esta prueba detecta principalmente almidón, por lo que permite evidenciar féculas y aquellas harinas que lo contienen. No constituye por sí sola una evaluación completa de todas las posibles sustancias utilizadas para adulterar la leche. 
         p.mb-0 La muestra debe ser representativa y encontrarse correctamente identificada antes del análisis. Dependiendo del procedimiento aplicado, puede realizarse un calentamiento previo y posterior enfriamiento para favorecer la detección del almidón. Después se adiciona el Lugol, se mezcla cuidadosamente y se observa cualquier cambio de color. La interpretación es principalmente visual y la prueba se da de la siguiente manera: 
- 
 
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .col-lg-7.mb-4.mb-lg-0
+        LineaTiempoD.color-acento-botones
+          .div(numero="1" titulo="Preparar la muestra")
+            p.mb-0 Tomar una cantidad representativa de leche en un recipiente limpio y adecuadamente identificado.   
+          .div(numero="2" titulo="Acondicionar la muestra")
+            p.mb-0 Calentar la muestra según el procedimiento establecido y luego dejar enfriar.
+          .div(numero="3" titulo="Adicionar el Lugol")
+            p.mb-0 Solución de LugolAgregar unas gotas de solución de Lugol a la muestra preparada.
+          .div(numero="4" titulo="Mezclar")
+            p.mb-0 Agitar suavemente para homogenizar la mezcla.
+          .div(numero="5" titulo="Observar e interpretar el resultado")
+            h5 Resultado negativo
+            p.mb-0 La mezcla mantiene una coloración amarillenta o marrón característica del reactivo.No se evidencia almidón mediante la prueba.
+            h5 Resultado positivo
+            p.mb-0 Aparece una coloración azul, azul violácea o azul-negruzca.Indica presencia de almidón y requiere revisar la conformidad de la materia prima.
+      .col-sm-8.col-lg-5
+        figure
+          img(src='@/assets/curso/tema1/25.png', alt='', data-aos="zoom-in-down")
 
+    .titulo-con-imagen.mb-5.z-2(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/common/title-icon.png")
+        h3.titulo-con-imagen__texto Reductasa
 
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .col-sm-6.col-lg-3
+        figure
+          img.mb-4.mb-lg-0(src="@/assets/curso/tema1/26.png", alt="" data-aos="zoom-in-down")
+      .col-lg-9
+        p La prueba de reductasa es un método indirecto utilizado para valorar la actividad microbiológica de la leche a partir del tiempo que tarda una muestra en producir la decoloración del azul de metileno. Su fundamento se relaciona con la actividad metabólica de los microorganismos, que consume el oxígeno disponible y modifica las condiciones de oxidación-reducción de la muestra. 
+        .bg-primario-p5.p-4.py-3.rounded-4.mb-3
+          p.mb-0 Cuando se adiciona azul de metileno a la leche, esta adquiere inicialmente una coloración azul. A medida que los microorganismos presentes desarrollan su actividad metabólica, disminuye el oxígeno disponible y el colorante pasa progresivamente a su forma reducida, perdiendo su color.  
+        p.mb-0 Por ello, una decoloración más rápida suele relacionarse con mayor actividad microbiana, mientras que una permanencia prolongada del color azul sugiere menor actividad bajo las condiciones de la prueba. 
 
-
-
-
-
-
-
-
-
-
-
- 
-
-
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
+      .col-lg-7
+        p Es importante señalar que esta determinación no identifica microorganismos específicos ni confirma la presencia de patógenos. Su resultado funciona como un indicador orientativo de la calidad microbiológica y debe complementarse, cuando sea necesario, con análisis microbiológicos específicos. 
+        .bg-secundario-s10.p-4.py-3.rounded-4.mb-4.mb-lg-0
+          p.mb-0 La interpretación depende principalmente del tiempo de reducción del colorante, pero también puede verse afectada por la temperatura, el tipo de microorganismos presentes, las condiciones de conservación de la leche y la correcta ejecución del procedimiento. Por esta razón, deben mantenerse constantes las condiciones establecidas por el método utilizado, el cual se debe desarrollar de la siguiente manera: 
+      .col-sm-8.col-lg-5
+        figure
+          img(data-aos="fade-down-right", src="@/assets/curso/tema1/27.png", alt="")
+  
+    .titulo-sexto.color-acento-contenido
+      h5 Tabla 1.
+      span  Descripción de la prueba de reductasa
+    .tabla-a.color-primario.tabla-a--text-left.mb-5
+      table
+        thead
+          tr(style="background-color: #F5FAEA")
+            th Momento 
+            th(colspan="3") ¿Qué ocurre? 
+            th(colspan="2") Interpretación 
+        tbody
+          tr
+            td #[strong Inicio de la prueba]
+            td(colspan="3") Adicionar azul de metileno a la leche y obtener una coloración azul uniforme. 
+            td(colspan="2") La prueba comienza bajo condiciones controladas y se inicia el registro del tiempo. 
+          tr
+            td #[strong Actividad microbiana]
+            td(colspan="3") Desarrollarse la actividad metabólica de los microorganismos presentes, consumiendo progresivamente el oxígeno disponible. 
+            td(colspan="2") Una mayor actividad provoca cambios más rápidos en las condiciones de la muestra. 
+          tr
+            td #[strong Reducción del colorante]
+            td(colspan="3") Observar cómo la tonalidad azul disminuye progresivamente a medida que cambia el estado de oxidación-reducción. 
+            td(colspan="2") La velocidad del cambio constituye el elemento principal para interpretar la prueba. 
+          tr
+            td #[strong Decoloración rápida]
+            td(colspan="3") Relacionar una pérdida rápida del color con una mayor actividad microbiana. 
+            td(colspan="2") Puede indicar condiciones microbiológicas menos favorables y requerir controles adicionales. 
+          tr
+            td #[strong Decoloración lenta]
+            td(colspan="3") Relacionar una permanencia prolongada del color azul con menor actividad microbiana. 
+            td(colspan="2") Sugiere mejores condiciones microbiológicas dentro de los alcances de esta prueba. 
       
 </template>
 
