@@ -98,6 +98,14 @@
           .col-sm-6.col-lg-4
             figure
               img.imgw-340(src="@/assets/curso/tema6/10.png", alt="")
+        .row.justify-content-center.align-items-center
+          .col-lg-7
+            h4.mb-4 Queso madurado 
+            p.mb-0 Permanecen bajo condiciones controladas durante un periodo determinado, desarrollando sabores, aromas y texturas más intensos. 
+            p.mb-4.mb-lg-0 #[strong Ejemplo de uso]: tablas de queso, cocina especializada y consumo directo. 
+          .col-sm-6.col-lg-4
+            figure
+              img.imgw-340(src="@/assets/curso/tema6/11.png", alt="")
 
     .row.justify-content-center.z-2
       .col-lg-10.col-xl-8

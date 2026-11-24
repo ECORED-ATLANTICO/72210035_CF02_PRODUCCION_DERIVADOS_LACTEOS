@@ -249,15 +249,15 @@
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-lg-7.mb-4.mb-lg-0
         LineaTiempoD.color-acento-botones
-          .div(numero="1" titulo="Preparar la muestra")
+          .div(numero="a." titulo="Preparar la muestra")
             p.mb-0 Tomar una cantidad representativa de leche en un recipiente limpio y adecuadamente identificado.   
-          .div(numero="2" titulo="Acondicionar la muestra")
+          .div(numero="b." titulo="Acondicionar la muestra")
             p.mb-0 Calentar la muestra según el procedimiento establecido y luego dejar enfriar.
-          .div(numero="3" titulo="Adicionar el Lugol")
+          .div(numero="c." titulo="Adicionar el Lugol")
             p.mb-0 Solución de LugolAgregar unas gotas de solución de Lugol a la muestra preparada.
-          .div(numero="4" titulo="Mezclar")
+          .div(numero="d." titulo="Mezclar")
             p.mb-0 Agitar suavemente para homogenizar la mezcla.
-          .div(numero="5" titulo="Observar e interpretar el resultado")
+          .div(numero="e." titulo="Observar e interpretar el resultado")
             h5 Resultado negativo
             p.mb-0 La mezcla mantiene una coloración amarillenta o marrón característica del reactivo.No se evidencia almidón mediante la prueba.
             h5 Resultado positivo

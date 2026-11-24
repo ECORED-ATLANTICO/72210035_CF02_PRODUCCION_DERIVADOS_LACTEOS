@@ -97,7 +97,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-7
             p Las bacterias ácido-lácticas transforman principalmente la lactosa en ácido láctico, generando disminución del pH y cambios en textura y sabor. 
-            p.mb-4.mb-lg-0 #[strong Ejemplo]: yogur y leche acidófila.      
+            p.mb-4.mb-lg-0 #[strong Productos relacionados]: yogur y leche acidófila.      
           .col-9.col-sm-6.col-lg-3
             figure
               img.imgw-230(src="@/assets/curso/tema4/11.png", alt="")
@@ -105,7 +105,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-7
             p Participan bacterias ácido-lácticas y levaduras, por lo que además de ácido láctico pueden producirse pequeñas cantidades de otros compuestos asociados con el aroma y sabor. 
-            p.mb-4.mb-lg-0 #[strong Ejemplo]: kéfir. 
+            p.mb-4.mb-lg-0 #[strong Productos relacionados]: kéfir. 
           .col-9.col-sm-6.col-lg-3
             figure
               img.imgw-230(src="@/assets/curso/tema4/12.png", alt="")
@@ -113,7 +113,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-7
             p Combina la producción de ácido láctico con una actividad fermentativa de levaduras que puede generar pequeñas cantidades de alcohol y dióxido de carbono. 
-            p.mb-4.mb-lg-0 #[strong Ejemplo]: kumis y algunas variedades de kéfir. 
+            p.mb-4.mb-lg-0 #[strong Productos relacionados]: kumis y algunas variedades de kéfir. 
           .col-9.col-sm-6.col-lg-3
             figure
               img.imgw-230(src="@/assets/curso/tema4/13.png", alt="")
@@ -121,7 +121,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-7
             p Después de la fermentación se reduce parte del contenido de suero o agua, obteniendo una consistencia más densa y mayor concentración de sólidos. 
-            p.mb-4.mb-lg-0 #[strong Ejemplo]: productos fermentados espesos o concentrados. 
+            p.mb-4.mb-lg-0 #[strong Productos relacionados]: productos fermentados espesos o concentrados. 
           .col-9.col-sm-6.col-lg-3
             figure
               img.imgw-230(src="@/assets/curso/tema4/14.png", alt="")

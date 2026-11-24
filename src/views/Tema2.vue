@@ -101,7 +101,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-7
             p Aplicar un calentamiento moderado durante corto tiempo para disminuir parte de los microorganismos presentes sin realizar todavía una pasteurización completa. 
-            p.mb-4.mb-lg-0 #[strong Ejemplo]: utilizarla como tratamiento previo cuando la leche no será procesada inmediatamente 
+            p.mb-4.mb-lg-0 #[strong Ejemplo]: utilizarla como tratamiento previo cuando la leche no será procesada inmediatamente.
           .col-9.col-sm-6.col-lg-3
             figure
               img.imgw-230(src="@/assets/curso/tema2/9.png", alt="")
@@ -125,7 +125,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-7
             p Aplicar un tratamiento térmico intenso para obtener un producto estable durante un periodo prolongado en su envase cerrado. 
-            p.mb-4.mb-lg-0 #[strong Ejemplo]: leche procesada y envasada para conservarse durante varios meses antes de abrirse 
+            p.mb-4.mb-lg-0 #[strong Ejemplo]: leche procesada y envasada para conservarse durante varios meses antes de abrirse.
           .col-9.col-sm-6.col-lg-3
             figure
               img.imgw-230(src="@/assets/curso/tema2/12.png", alt="")
